@@ -1,0 +1,13 @@
+#python
+
+line = []
+while True:  
+    s= str(input('enter a sentence :'))
+    if s:
+        line.append(s.upper())
+    else:
+        break;
+
+for sentence in line:
+    print (sentence)
+
