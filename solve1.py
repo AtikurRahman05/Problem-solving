@@ -1,3 +1,4 @@
+
 # Problem-solving
 class User:
     name = ''
@@ -8,12 +9,12 @@ class User:
     def __init__(self,name,email,password):
         self.name = name
         self.email = email
-        self.passward = passward
+        self.password = password
     def login(self):
         email = input("Enter email: ")
-        passward = input("Enter passward: ")
+        password = input("Enter passward: ")
 
-        if email == self.email and passward ==self.passward:
+        if email == self.email and password ==self.password:
             login = True
             print("Login Successfull")
         else:
@@ -33,5 +34,4 @@ class User:
           print ("User is not logged in")
 User= User("Atikur","atikurra00005@gmail.com","12345") 
 User.login()
-User = input()       
-        
+#User = input() 
